@@ -1,6 +1,6 @@
 <div class="filament-hidden">
 
-![Filament Hotjar](https://raw.githubusercontent.com/jeffersongoncalves/filament-hotjar/2.x/art/jeffersongoncalves-filament-hotjar.png)
+![Filament Hotjar](https://raw.githubusercontent.com/jeffersongoncalves/filament-hotjar/3.x/art/jeffersongoncalves-filament-hotjar.png)
 
 </div>
 
@@ -9,7 +9,7 @@
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-FFDD00?style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jeffersongoncalves)
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jeffersongoncalves/filament-hotjar.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/filament-hotjar)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/filament-hotjar/fix-php-code-style-issues.yml?branch=2.x&label=code%20style&style=flat-square)](https://github.com/jeffersongoncalves/filament-hotjar/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3A2.x)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/filament-hotjar/fix-php-code-style-issues.yml?branch=3.x&label=code%20style&style=flat-square)](https://github.com/jeffersongoncalves/filament-hotjar/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3A3.x)
 [![Total Downloads](https://img.shields.io/packagist/dt/jeffersongoncalves/filament-hotjar.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/filament-hotjar)
 [![License](https://img.shields.io/packagist/l/jeffersongoncalves/filament-hotjar.svg?style=flat-square)](LICENSE.md)
 
@@ -30,7 +30,7 @@ Built on top of [jeffersongoncalves/laravel-hotjar](https://github.com/jefferson
 You can install the package via composer:
 
 ```bash
-composer require jeffersongoncalves/filament-hotjar:"^2.0"
+composer require jeffersongoncalves/filament-hotjar:"^3.0"
 ```
 
 Publish the settings migrations and run them:
@@ -74,7 +74,7 @@ HotjarPlugin::make()
 ## Requirements
 
 - PHP 8.2 or higher
-- Filament 4.x
+- Filament 5.x
 
 ## Changelog
 
