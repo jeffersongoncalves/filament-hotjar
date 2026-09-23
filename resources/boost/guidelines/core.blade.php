@@ -6,7 +6,7 @@ Filament plugin for Hotjar with a settings page powered by Spatie Laravel Settin
 
 @verbatim
 <code-snippet name="Install the plugin" lang="bash">
-composer require jeffersongoncalves/filament-hotjar:"^1.0"
+composer require jeffersongoncalves/filament-hotjar:"^2.0"
 php artisan vendor:publish --tag=hotjar-settings-migrations
 php artisan migrate
 </code-snippet>
