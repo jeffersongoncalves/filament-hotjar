@@ -6,6 +6,7 @@ use Filament\Forms\Components\TextInput;
 use Filament\Pages\SettingsPage;
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Schema;
+use JeffersonGoncalves\FilamentAnalyticsCore\AbstractAnalyticsPlugin;
 use JeffersonGoncalves\Hotjar\Settings\HotjarSettings;
 
 class ManageHotjarSettings extends SettingsPage
@@ -21,7 +22,7 @@ class ManageHotjarSettings extends SettingsPage
 
     public static function getNavigationGroup(): string|\UnitEnum|null
     {
-        return __('filament-hotjar::pages.navigation_group');
+        return AbstractAnalyticsPlugin::navigationGroupFor('filament-hotjar') ?? __('filament-hotjar::pages.navigation_group');
     }
 
     public function getTitle(): string
